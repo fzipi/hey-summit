@@ -39,4 +39,6 @@ jobs:
         run: poetry run black . --check
 
       - name: Test with pytest
+        env:
+          HEY_SUMMIT_TOKEN: ${{ secrets.HEY_SUMMIT_TOKEN }}
         run: poetry run pytest --cov . --token $HEY_SUMMIT_TOKEN

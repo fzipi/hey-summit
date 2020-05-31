@@ -6,8 +6,8 @@ Hey Summit API Client
 .. image:: https://img.shields.io/pypi/v/heysummit.svg
         :target: https://pypi.python.org/pypi/heysummit
 
-.. image:: https://img.shields.io/travis/fzipi/heysummit.svg
-        :target: https://travis-ci.com/fzipi/heysummit
+.. image:: https://img.shields.io/github/workflow/status/fzipi/hey-summit/CI
+        :target: https://github.com/fzipi/hey-summit/actions
 
 .. image:: https://readthedocs.org/projects/heysummit/badge/?version=latest
         :target: https://heysummit.readthedocs.io/en/latest/?badge=latest

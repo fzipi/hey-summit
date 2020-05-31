@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "heysummit"
-version = "0.1.1"
+version = "0.1.3"
 description = "HeySummit API Client"
 authors = ["Felipe Zipitria <felipe.zipitria@owasp.org>"]
 license = "Apache-2.0"
