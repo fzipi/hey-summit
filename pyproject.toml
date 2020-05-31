@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "heysummit"
+version = "0.1.0"
+description = "HeySummit API Client"
+authors = ["Felipe Zipitria <felipe.zipitria@owasp.org>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.23.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.2"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
