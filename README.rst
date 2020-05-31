@@ -3,16 +3,15 @@ Hey Summit API Client
 =====================
 
 
-.. image:: https://img.shields.io/pypi/v/hey_summit.svg
-        :target: https://pypi.python.org/pypi/hey_summit
+.. image:: https://img.shields.io/pypi/v/heysummit.svg
+        :target: https://pypi.python.org/pypi/heysummit
 
-.. image:: https://img.shields.io/travis/fzipi/hey-summit.svg
-        :target: https://travis-ci.com/fzipi/hey-summit
+.. image:: https://img.shields.io/travis/fzipi/heysummit.svg
+        :target: https://travis-ci.com/fzipi/heysummit
 
-.. image:: https://readthedocs.org/projects/hey-summit/badge/?version=latest
-        :target: https://python-boilerplate.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/heysummit/badge/?version=latest
+        :target: https://heysummit.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
-
 
 .. image:: https://pyup.io/repos/github/fzipi/hey-summit/shield.svg
      :target: https://pyup.io/repos/github/fzipi/hey-summit/
