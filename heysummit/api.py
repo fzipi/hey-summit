@@ -24,9 +24,7 @@ class HeySummit(object):
         self.debug = debug
         self.client = requests.Session()
 
-    def _request(
-        self, action="GET", url="/", json=None, headers=None, params=None
-    ):
+    def _request(self, action="GET", url="/", json=None, headers=None, params=None):
         """ Helper class for calling requests """
         if url.startswith("https"):
             endpoint = url
@@ -36,6 +34,7 @@ class HeySummit(object):
         # Output HTTP dialog if using debug mode
         if self.debug:
             import http.client as http_client
+
             http_client.HTTPConnection.debuglevel = 1
 
         return self.client.request(
@@ -237,7 +236,7 @@ class HeySummit(object):
 
         r.raise_for_status
 
-        if r.status_code == 201: # HTTP/1.1 201 Created
+        if r.status_code == 201:  # HTTP/1.1 201 Created
             return True
         else:
             return False
@@ -305,5 +304,3 @@ class HeySummit(object):
         r.raise_for_status
 
         return r.json()
-
-
