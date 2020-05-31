@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "HeySummit API Client"
 authors = ["Felipe Zipitria <felipe.zipitria@owasp.org>"]
 license = "Apache-2.0"
+readme = 'README.rst'  # Markdown files are supported
+repository = "https://github.com/fzipi/hey-summit"
+homepage = "https://github.com/fzipi/hey-summit"
 
 [tool.poetry.dependencies]
 python = "^3.6"
