@@ -39,6 +39,4 @@ jobs:
         run: poetry run black . --check
 
       - name: Test with pytest
-        env:
-          SECRETS_FILE: .confidential/ci.json
-        run: poetry run pytest --cov . -n 2
+        run: poetry run pytest --cov . -n 2 --token $HEY_SUMMIT_TOKEN
